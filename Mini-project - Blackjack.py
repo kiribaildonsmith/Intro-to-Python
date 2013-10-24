@@ -140,12 +140,12 @@ def deal():
         
     deck.shuffle()
     
-    # deal player's inital hand
+    # deal player's initial hand
     player = Hand()
     player.add_card(deck.deal_card())
     player.add_card(deck.deal_card())
     
-    # deal dealer's inital hand
+    # deal dealer's initial hand
     dealer = Hand()
     dealer.add_card(deck.deal_card())
     dealer.add_card(deck.deal_card())

@@ -43,7 +43,7 @@ def inc_vel():
         
     ball_vel[0] = - ball_vel[0]
     
-    
+# initialise variables for a new game   
 def new_game():
     global paddle1_pos, paddle2_pos, paddle1_vel, paddle2_vel  # these are floats
     global score1, score2  # these are ints
